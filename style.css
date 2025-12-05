@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 5rem;
+    height: 10vh;
 }
 
 .header-logo {
@@ -26,4 +26,57 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+}
+
+.intro-section {
+    height: 30vh ;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+    
+    
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+    
+}
+
+button {
+    padding: 0.1rem 0.3rem;
+    display: block;
+    border-radius: 5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.intro-btn-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ex-btn {
+    background-color: yellow;
+    color: black;
+
+}
+
+.intro-right {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    height: 80%;
+    width: 15%;
+    font-size: 80%;
+    padding: 0 0.5rem;
 }
