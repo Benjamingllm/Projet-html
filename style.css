@@ -171,3 +171,14 @@ button {
     justify-content: center;
     
 }
+
+footer {
+    height: 10vh;
+    background-color: rgb(63, 8, 139);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
