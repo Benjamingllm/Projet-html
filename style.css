@@ -200,8 +200,10 @@ label{
     color : rgb(111, 100, 121);
 }
 input{
-     color : rgba(167, 154, 179, 0.76);
-     border-radius: 1em;
+    padding: 0.8rem 1rem;
+    border: 1px solid #d0d5dd;
+    border-radius: 0.5rem;
+    resize: vertical;
 }
 
 input[id="email"]{
@@ -214,13 +216,11 @@ input[id ="nom"]{
 
     
 }
-input[id="message"]{
-    height: 7rem;
-    text-align: left;
-    padding-top: 0rem;
-    
-
-    
+textarea {
+    padding: 0.8rem 1rem;
+    border: 1px solid #d0d5dd;
+    border-radius: 0.5rem;
+    resize: none;
 }
 .label-input{
     display: flex;
