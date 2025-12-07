@@ -5,6 +5,7 @@ body{
     box-sizing: border-box;
     font-family: sans-serif;
     overflow-x: hidden;
+    font-size: 1.5rem;
     
 }
 a  {
@@ -47,6 +48,7 @@ button {
     width: 30%;
     height: 90%;
     border-radius: 50%;
+
 }
 
 .logo-container {
@@ -54,7 +56,7 @@ button {
     height: 100%;
     width : 10rem;
     display: flex;
-    
+    font-size: 1rem;
     align-items: center;
 
 }
@@ -86,18 +88,21 @@ button {
 .intro-left,.intro-right {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    
     flex-grow: 1;
     min-width:300px;
     
     
 }
-
+.intro-left{
+    width: 30%;
+}
 .intro-right { 
     background-color: rgba(121, 87, 129);
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgb(67, 48, 71,0.4);
     padding: 2rem 1.5rem;
+    width: 20%;
     
     
 }
@@ -145,15 +150,9 @@ button {
     
     
     
+    
 }
-.txt-learning h2{
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-.txt-learning p{
-    font-size: 1.1rem;
-    line-height: 1.4;
-}
+
 
 .card-container {
     display: flex;
@@ -293,6 +292,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1rem
     
 }
 
