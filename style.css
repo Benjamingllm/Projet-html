@@ -42,7 +42,9 @@ button {
     align-items: center;
     height: 5vh;
     color: white;
+    font-size: 1rem;
 }
+
 
 .header-logo {
     width: 30%;
@@ -226,7 +228,7 @@ button {
 }
 .form-text{
     width: 85%;
-    margin-bottom: 0 auto 2rem auto;
+    margin-bottom:2rem ;
 }
 .form{
     
@@ -292,7 +294,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1rem
+    font-size: 0.9rem
     
 }
 
